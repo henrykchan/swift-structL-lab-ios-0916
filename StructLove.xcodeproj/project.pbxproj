@@ -15,13 +15,13 @@
 		5BB0BD511D4FC02E0054120F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB0BD4F1D4FC02E0054120F /* LaunchScreen.storyboard */; };
 		5BB0BD681D4FC4300054120F /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0BD671D4FC4300054120F /* Tiger.swift */; };
 		5BB0BD6B1D4FC4DC0054120F /* TigerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0BD6A1D4FC4DC0054120F /* TigerTest.swift */; };
+		7214DE0C1DA6CA800015F791 /* CoordinateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73779891D66AB4200EAEC1E /* CoordinateTest.swift */; };
+		7214DE0D1DA6D38B0015F791 /* PizzaDeliveryServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C741D66B6D500D9671A /* PizzaDeliveryServiceTest.swift */; };
+		7214DE0E1DA6FDBC0015F791 /* PersonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C781D66BD5D00D9671A /* PersonTest.swift */; };
 		A2633FF2488D93443A235173 /* Pods_StructLoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18EFF07EEDF944E8D144540 /* Pods_StructLoveTests.framework */; };
 		B73779881D66A93000EAEC1E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73779871D66A93000EAEC1E /* Coordinate.swift */; };
-		B737798A1D66AB4200EAEC1E /* CoordinateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73779891D66AB4200EAEC1E /* CoordinateTest.swift */; };
 		B7874C731D66B68F00D9671A /* PizzaDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C721D66B68F00D9671A /* PizzaDeliveryService.swift */; };
-		B7874C751D66B6D500D9671A /* PizzaDeliveryServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C741D66B6D500D9671A /* PizzaDeliveryServiceTest.swift */; };
 		B7874C771D66BC8100D9671A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C761D66BC8100D9671A /* Person.swift */; };
-		B7874C791D66BD5D00D9671A /* PersonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C781D66BD5D00D9671A /* PersonTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,9 +114,9 @@
 		5BB0BD451D4FC02E0054120F /* StructLove */ = {
 			isa = PBXGroup;
 			children = (
-				B73779871D66A93000EAEC1E /* Coordinate.swift */,
 				B7874C761D66BC8100D9671A /* Person.swift */,
 				B7874C721D66B68F00D9671A /* PizzaDeliveryService.swift */,
+				B73779871D66A93000EAEC1E /* Coordinate.swift */,
 				5BB0BD671D4FC4300054120F /* Tiger.swift */,
 				5BB0BD661D4FC3EA0054120F /* Supporting Files */,
 			);
@@ -126,9 +126,9 @@
 		5BB0BD5A1D4FC02E0054120F /* StructLoveTests */ = {
 			isa = PBXGroup;
 			children = (
-				B73779891D66AB4200EAEC1E /* CoordinateTest.swift */,
 				B7874C781D66BD5D00D9671A /* PersonTest.swift */,
 				B7874C741D66B6D500D9671A /* PizzaDeliveryServiceTest.swift */,
+				B73779891D66AB4200EAEC1E /* CoordinateTest.swift */,
 				5BB0BD6A1D4FC4DC0054120F /* TigerTest.swift */,
 				5BB0BD691D4FC4C50054120F /* Test Supporting Files */,
 			);
@@ -381,9 +381,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB0BD6B1D4FC4DC0054120F /* TigerTest.swift in Sources */,
-				B737798A1D66AB4200EAEC1E /* CoordinateTest.swift in Sources */,
-				B7874C791D66BD5D00D9671A /* PersonTest.swift in Sources */,
-				B7874C751D66B6D500D9671A /* PizzaDeliveryServiceTest.swift in Sources */,
+				7214DE0C1DA6CA800015F791 /* CoordinateTest.swift in Sources */,
+				7214DE0E1DA6FDBC0015F791 /* PersonTest.swift in Sources */,
+				7214DE0D1DA6D38B0015F791 /* PizzaDeliveryServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

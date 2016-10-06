@@ -22,7 +22,7 @@ class CoordinateSpec: QuickSpec {
             }
         }
 
-        describe("isInSoutherHemisphere") {
+        describe("isInSouthernHemisphere") {
             it("returns true if the coordinate is in the sourther hemisphere") {
                 expect(coord1.isInSouthernHemisphere).to(beFalse())
                 expect(coord2.isInSouthernHemisphere).to(beTrue())
